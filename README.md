@@ -1,5 +1,7 @@
 # Final_project_Ironhack_bootcamp
 
+ ![elb222](https://user-images.githubusercontent.com/109019847/193476916-d2c709ee-4548-4928-a044-8861a6c566ab.jpg)
+
 The main objetive of this project is to create a form of visualise the information of the players of the game " Fifa 23" and to make predictions of the price of them at the competitive mode of the videogame, the ultimate team. In order to do that we followed these steps:
 
 
@@ -10,4 +12,3 @@ The main objetive of this project is to create a form of visualise the informati
 3) Visualitation of the data via Streamlit
 
 
-    ![elb222](https://user-images.githubusercontent.com/109019847/193476916-d2c709ee-4548-4928-a044-8861a6c566ab.jpg)
