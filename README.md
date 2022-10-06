@@ -12,9 +12,14 @@ The main objetive of this project is to create a form of visualise the informati
 
       The streamlit visualizsation have this look:
       
-      ![image](https://user-images.githubusercontent.com/109019847/194430005-7fba35fb-8386-4961-913a-c2950f9123fc.png)
+      ![Captura de pantalla (124)](https://user-images.githubusercontent.com/109019847/194430697-39345a98-af9b-4ee3-ae2e-4809a3a24fb9.png)
 
 
 
+Hope ou enjoy it!
+
+Miguel Mota
+
+Ironhack Bootcamp Aug-Oct 2022
 
       ![elb222](https://user-images.githubusercontent.com/109019847/193476916-d2c709ee-4548-4928-a044-8861a6c566ab.jpg)
