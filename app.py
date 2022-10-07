@@ -236,7 +236,7 @@ def predict_price(name, med, ver, x, l):
     price_df = price_df.resample(rule ='30T', closed='left', label='right').mean()
     
     steps = len(price_df)
-    data_train = price_df[:round(steps*0.7)]
+    data_train = price_df[:round(steps*0.70)]
     data_test  = price_df[-round(steps*0.3):]
     
     dt = pd.concat([data_train,data_test])
@@ -251,7 +251,7 @@ def predict_price(name, med, ver, x, l):
     predictions = forecaster.predict(steps=+x)
     
     import plotly.express as px
-    datos_plot=pd.DataFrame({'test':dt['price'],
+    datos_plot=pd.DataFrame({'train':data_train['price'],
                              'prediccion': predictions})
 
     datos_plot.index.name='time'
